@@ -5,5 +5,5 @@ updates:
     schedule:
       interval: "weekly"
     ignore:
-      - dependency-name: org.springframework:spring-core
+      - dependency-name: org.jbpm-bpmn2
         versions: "> 6.2.0.Final"
