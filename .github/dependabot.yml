@@ -4,3 +4,6 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    ignore:
+      - dependency-name: org.springframework:spring-core
+        versions: "> 6.2.0.Final"
